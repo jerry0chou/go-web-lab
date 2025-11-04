@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Layout Template</title>
+</head>
+<body>
+    <header>
+        <h1>Gin Demo App</h1>
+    </header>
+    <main>
+        <p>{{.content}}</p>
+        <ul>
+            {{range .items}}
+            <li>{{.}}</li>
+            {{end}}
+        </ul>
+    </main>
+    <footer>
+        <p>Powered by Gin</p>
+    </footer>
+</body>
+</html>
+
+
